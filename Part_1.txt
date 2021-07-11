@@ -1,0 +1,30 @@
+00:07:38	Joash Lee:	Good morning from Singapore =)
+00:17:09	Ziran Wang:	@Joash Welcome!
+00:33:28	Ziran Wang:	@Everyone Please feel free to add your questions to speakers here in the chat box. Thanks.
+00:34:30	Jia Hu:	（@zhanbo) what's the difference when you mentioned "closed loop" and "hybrid"?
+00:37:25	XB Hu:	@zhanbo how far into the future do you need to predict?
+00:37:58	Nigel Williams:	@Zhanbo will the slides be posted later?
+00:39:23	Xishun(Heeson) Liao:	@Zhanbo for trajectory prediction, do you consider surrounding vehicle's behavior into your model? what kind of information are needed?
+01:01:22	Nigel Williams:	@Haoran how do you decide which gap the rear CAV should cut into?
+01:05:38	Sergei Avedisov:	@Haoran, how many vehicles realistically can platoon and make simultaneous lane changes like this? Have you looked at platoon length vs mobility results?
+01:21:30	Ziran Wang:	@Everyone Please feel free to ask your questions to the lightning talk speakers in this chat box as well. Thanks!
+01:24:44	Xinpeng Wang:	@Xishun For highway merge, how is right-of-way represented in the utility function design? Thank you!
+01:25:14	Nigel Williams:	@Heeson do manual vehicles still play the game?
+01:25:25	Sergei Avedisov:	@Xishun, have you looked at penetrations that are small, like 5% or 10%
+01:26:20	Xinpeng Wang:	Got it. Thank you!
+01:27:40	Sergei Avedisov:	Followup, when do you start seeing a significant difference?
+01:29:15	Xishun(Heeson) Liao:	You are welcome!@Xinpeng
+01:35:56	Sergei Avedisov:	@Yougang, what gain ranges would you expect to tune your CAV to?
+01:36:27	Sergei Avedisov:	In terms of alpha/beta
+01:38:23	Sergei Avedisov:	Would some of those values be unreasonable for vehicle dynamics constraints?
+02:24:23	sistla:	how does the vehicle detection in the side lane happens? 
+02:28:58	sistla:	So is this similar to sensor fusion  of Radar + Lidar + v2x messages  ?
+02:35:04	sistla:	Do you have any pointers on measuring channel resources 
+02:36:57	Xinpeng Wang:	@Sergei Really interesting talk! In NGSIM data, error goes to zero using CPM at 30% penetration rate. Is there a math guarantee on how much penetration needed to achieve no error for all such scenario?  (It sounds similar to herd immunity.)
+02:38:28	sistla:	This is really interesting talk , can you share the papers and reference link to your paper 
+02:38:47	Jia Hu:	Yeah...  couldn't find the paper either
+02:40:33	Xinpeng Wang:	Good to know. Thanks!
+02:44:25	sistla:	Ziran can you provide me link for your webpage to access these 
+02:44:41	Ziran Wang:	Sure. Here it is: https://ziranw.github.io/iv2021workshop/
+02:45:17	sistla:	Thank you Ziran. This is really interesting 
+02:45:30	Ziran Wang:	Thank you for attending!
