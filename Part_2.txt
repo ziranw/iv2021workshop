@@ -1,0 +1,40 @@
+00:17:07	Ziran Wang:	@Everyone Please feel free to raise your questions to the presenters in the chat box here. Thanks!
+00:50:22	Jia Hu:	Just out of curiosity. how would u respond to the challenge that this application can not work well with low cv penetration. Plus, it requires a consent from the front vehicle who does not gain any benefit from connected acc.
+00:58:45	Jia Hu:	How do u handle the low accuracy of gps?Give the track of the front vehicle and the position of the ego vehicle r both inaccurate.
+01:01:55	Sergei Avedisov:	@Gabor, how was the longitudinal controller tuned?
+01:04:27	Sergei Avedisov:	This is related to a talk from yesterday which used OVM
+01:07:53	Jia Hu:	Very interesting talk! Mind intriguing!
+01:18:24	Jia Hu:	How do u define a scenario. Coz scenario is a duration of time. While the data collected is from a instant.
+01:19:16	Guoyuan Wu:	@Xinpeng, what Yolo version did you use? Did you re-train the Yolo model?
+01:22:44	Xinpeng Wang:	@ Jia Hu Here the pedestrian scenario is defined by the initial condition when the pedestrian just enter the crosswalk. After that the behavior of the pedestrian and vehicles are assumed to be deterministic.
+01:23:27	Jia Hu:	Thx. Xinpeng.
+01:23:38	Xinpeng Wang:	@Guoyuan Wu We used YOLO V3. We did not retrain the weight here.
+01:25:38	Guoyuan Wu:	Thank u, Xinpeng. A very interesting presentation.
+01:26:13	Sergei Avedisov:	@Yanbing, do you have a timeline for this dataset?
+01:26:52	Sergei Avedisov:	Also are there challenges in linking data from different cameras?
+01:27:20	Guoyuan Wu:	@Yanbing, what modern CV algorithm are you using for trajectory extraction?
+01:27:44	Li Li:	Excuse me, could you please let us know the size of the new dataset?
+01:30:56	Yanbing Wang:	@sergei Yes there are many challenges, including hardware (it’s ridiculously difficult to have time synchronization). Another notable challenge is mapping transformation from camera view to relative road coordinates. So far we have a semi-autonomous method to get the transformation:)
+01:32:00	Yanbing Wang:	@Guoyuan The algorithm is based on Yolo and Fast RCNN. You can see more details in this paper https://openaccess.thecvf.com/content/CVPR2021W/AICity/papers/Gloudemans_Fast_Vehicle_Turning-Movement_Counting_Using_Localization-Based_Tracking_CVPRW_2021_paper.pdf
+01:32:55	Yanbing Wang:	@Li Li, the length of the roadway is 6 miles, with continuous-time data, we can get about 16,000,000 vehicle miles traveled per year
+01:33:28	Guoyuan Wu:	Thank you very much, Yanbing. Great work and looking forward to the dataset.
+01:35:50	Sergei Avedisov:	@Ziran, an interesting implementation. Have you tested how a human could stay in the slot?
+01:39:33	Li Li:	@Yanbing Wang Thanks!
+01:55:28	Boqi Li:	@Erdem Does the traffic model also work with urban traffic networks?
+02:05:02	Boqi Li:	@Erdem Is the traffic state (like number of human vehicles) on each road fully observable to the RL agent?
+02:05:21	Xinpeng Wang:	@Erdem In the RL training environment, are there other AVs? If so, how do AVs interact with each other during training? Thanks.
+02:06:45	Y. Bian:	Do the human drivers know the information about the traffic states on all the routines?
+02:06:59	Nigel Williams:	@Erdem why are alpha = 0.4 (or 0.5) infeasible?
+02:27:08	Yougang Bian:	@Yan Chang: Can the proposed method address the case where multiple AVs also exist in the environment?
+02:27:31	GONGORA Daniel:	@Yan Chang: When learning optimal acceleration/deceleration maneuvers (e.g., to maximize comfort), is all data equal? Or should "good" and "bad" drivers need to be labeled?
+02:29:39	Xinpeng Wang:	@ Yan Will the learned agents/HVs all behave very similar? Could you give some insight on recreating the diversity human driving behaviors? Thanks.
+02:32:55	iPhone:	how do you deal with the predictions? thanks
+02:34:10	iPhone:	i mean I didn’t see your methods for how to consider the predicted risks surrounding ev. thanks
+02:38:34	Ziran Wang:	Workshop website: https://bit.ly/2UZnKdJ. Thank you everyone for attending!
+02:39:19	Yougang Bian:	Thanks!
+02:39:30	Guoyuan Wu:	Thank you all very much!
+02:39:39	Li Li:	Thanks!
+02:39:40	Sergei Avedisov:	Thanks
+02:39:42	sistla:	Thank you everyone ...Thank you organizers for this... this is really useful  
+02:39:47	Xishun(Heeson) Liao:	great work!
+02:39:55	GONGORA Daniel:	Thank you for the workshop. It was really informative.
